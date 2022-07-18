@@ -9,7 +9,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    GILDSTONE(MiningLevels.NETHERITE, 3420, 16.0f, 5.5f, 34, () -> Ingredient.ofItems(ModItems.GILDSTONE_INGOT));
+    GILDSTONE(MiningLevels.NETHERITE, 3420, 18.0f, 5.5f, 34, () -> Ingredient.ofItems(ModItems.GILDSTONE_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;
