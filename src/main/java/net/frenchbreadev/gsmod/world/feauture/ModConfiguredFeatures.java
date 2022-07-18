@@ -23,7 +23,7 @@ public class ModConfiguredFeatures {
 
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> END_GILDSTONE_ORE =
-            ConfiguredFeatures.register("end_mythril_ore",Feature.ORE,
+            ConfiguredFeatures.register("end_gildstone_ore",Feature.ORE,
                     new OreFeatureConfig(END_GILDSTONE_ORES, 2));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_GILDSTONE_ORES = List.of(
