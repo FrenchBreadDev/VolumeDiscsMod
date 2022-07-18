@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "advancednetherite:netherite_diamond_helmet"
+    },
+    "addition": {
+        "item": "gsmod:gildstone_ingot"
+    },
+    "result": {
+        "item": "gsmod:gildstone_helmet"
+    }
+}

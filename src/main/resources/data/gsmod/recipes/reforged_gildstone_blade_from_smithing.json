@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "gsmod:damaged_gildstone_blade"
+    },
+    "addition": {
+        "item": "gsmod:gildstone_ingot"
+    },
+    "result": {
+        "item": "gsmod:reforged_gildstone_blade"
+    }
+}
