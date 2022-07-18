@@ -87,7 +87,7 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC)));
 
     public static final Item MUSIC_DISC_DECISIONS = registerItem("music_disc_decisions",
-            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_X,
+            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_DECISIONS,
                     new FabricItemSettings().group(ModItemGroup2.GILDEDMISC).maxCount(1)));
 
 

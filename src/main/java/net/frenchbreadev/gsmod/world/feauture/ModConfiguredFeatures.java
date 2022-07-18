@@ -24,7 +24,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> END_GILDSTONE_ORE =
             ConfiguredFeatures.register("end_gildstone_ore",Feature.ORE,
-                    new OreFeatureConfig(END_GILDSTONE_ORES, 2));
+                    new OreFeatureConfig(END_GILDSTONE_ORES, 3));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_GILDSTONE_ORES = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,

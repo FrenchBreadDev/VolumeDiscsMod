@@ -13,7 +13,7 @@ import net.minecraft.world.gen.placementmodifier.SquarePlacementModifier;
 public class ModPlacedFeatures {
 
     public static final RegistryEntry<PlacedFeature> END_GILDSTONE_ORE_PLACED = PlacedFeatures.register("end_gildstone_ore_placed",
-            ModConfiguredFeatures.END_GILDSTONE_ORE, ModOreFeatures.modifiersWithCount(2,
+            ModConfiguredFeatures.END_GILDSTONE_ORE, ModOreFeatures.modifiersWithCount(4,
                     HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 
     public static final RegistryEntry<PlacedFeature> VIBRIAN_SILK_BLOCK_PLACED = PlacedFeatures.register("vibrian_silk_block_placed",
