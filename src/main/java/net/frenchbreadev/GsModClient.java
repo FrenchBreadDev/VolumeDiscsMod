@@ -1,4 +1,4 @@
-package net.frenchbreadev.gsmod;
+package net.frenchbreadev;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.frenchbreadev.gsmod.item.util.ModModelPredicateProvider;

@@ -5,7 +5,7 @@
     },
     "title": "GsMod Advancements",
     "description": "",
-    "background": "gsmod:textures/block/vibrian_silk_block.png",
+    "background": "gsmod:textures/block/end_gildstone_ore.png",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": true
