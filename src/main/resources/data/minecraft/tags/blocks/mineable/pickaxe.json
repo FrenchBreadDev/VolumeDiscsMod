@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "gsmod:end_gildstone_ore",
     "gsmod:gildstone_block",
+    "gsmod:end_gildstone_ore",
     "gsmod:vibrian_silk_block"
   ]
 }

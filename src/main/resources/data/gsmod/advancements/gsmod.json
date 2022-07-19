@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "gsmod:gildstone_boots"
+    },
+    "title": "GsMod Advancements",
+    "description": "",
+    "background": "gsmod:textures/block/vibrian_silk_block.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

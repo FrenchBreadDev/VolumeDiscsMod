@@ -7,7 +7,6 @@ import net.frenchbreadev.gsmod.item.ModItemGroup3;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -17,7 +16,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()));
 
     public static final Block VIBRIAN_SILK_BLOCK = registerBlock("vibrian_silk_block",
-        new Block(FabricBlockSettings.of(Material.WOOL).strength(1f).requiresTool()));
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(1.5f).requiresTool()));
 
 
     public static final Block END_GILDSTONE_ORE = registerBlock("end_gildstone_ore",
@@ -25,13 +24,13 @@ public class ModBlocks {
 
 
     private static Block registerBlock(String name, Block block) {
-        registerBlockItem(name, block, ModItemGroup3.GILDEDBB);
+        registerBlockItem(name, block);
     return Registry.register(Registry.BLOCK, new Identifier(GsMod.MOD_ID, name), block);
     }
 
-    private static void registerBlockItem(String name, Block block, ItemGroup tab) {
+    private static void registerBlockItem(String name, Block block) {
         Registry.register(Registry.ITEM, new Identifier(GsMod.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings().group(tab)));
+                new BlockItem(block, new FabricItemSettings().group(ModItemGroup3.GILDEDBB)));
     }
 
     public static void registerModBlocks() {
