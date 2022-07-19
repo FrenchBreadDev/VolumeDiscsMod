@@ -46,5 +46,21 @@
         "stream": true
       }
     ]
+  },
+  "music_disc_blue_to_blue": {
+    "sounds": [
+      {
+        "name": "gsmod:music_disc_blue_to_blue",
+        "stream": true
+      }
+    ]
+  },
+  "secret_saul": {
+    "sounds": [
+      {
+        "name": "gsmod:s_s",
+        "stream": true
+      }
+    ]
   }
 }

@@ -12,6 +12,8 @@ public class ModSounds {
     public static SoundEvent ONE_RN_DISC = registerSoundEvent("one_rn_disc");
     public static SoundEvent MUSIC_DISC_BAD_DREAM = registerSoundEvent("music_disc_bad_dream");
     public static SoundEvent MUSIC_DISC_DECISIONS = registerSoundEvent("music_disc_decisions");
+    public static SoundEvent MUSIC_DISC_BLUE_TO_BLUE = registerSoundEvent("music_disc_blue_to_blue");
+    public static SoundEvent SECRET_SAUL = registerSoundEvent("secret_saul");
 
 
     private static SoundEvent registerSoundEvent(String name) {

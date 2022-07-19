@@ -1,12 +1,14 @@
 package net.frenchbreadev.gsmod.item;
 
-import net.fabricmc.fabric.api.item.v1.CustomDamageHandler;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.frenchbreadev.gsmod.GsMod;
 import net.frenchbreadev.gsmod.item.custom.*;
 import net.frenchbreadev.gsmod.sound.ModSounds;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.*;
+import net.minecraft.item.BowItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.ToolMaterial;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -89,6 +91,14 @@ public class ModItems {
     public static final Item MUSIC_DISC_DECISIONS = registerItem("music_disc_decisions",
             new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_DECISIONS,
                     new FabricItemSettings().group(ModItemGroup2.GILDEDMISC).maxCount(1)));
+
+    public static final Item MUSIC_DISC_BLUE_TO_BLUE = registerItem("music_disc_blue_to_blue",
+            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_BLUE_TO_BLUE,
+                    new FabricItemSettings().group(ModItemGroup2.GILDEDMISC).maxCount(1)));
+
+    public static final Item SECRET_SAUL = registerItem("secret_saul",
+            new ModMusicDiscItem(7, ModSounds.SECRET_SAUL,
+                    new FabricItemSettings().maxCount(1)));
 
 
     private static Item registerItem(String name, Item item) {
