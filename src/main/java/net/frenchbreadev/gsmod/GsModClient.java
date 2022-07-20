@@ -1,7 +1,7 @@
-package net.frenchbreadev;
+package net.frenchbreadev.gsmod;
 
 import net.fabricmc.api.ClientModInitializer;
-import net.frenchbreadev.gsmod.item.util.ModModelPredicateProvider;
+import net.frenchbreadev.gsmod.util.ModModelPredicateProvider;
 
 public class GsModClient implements ClientModInitializer {
     @Override

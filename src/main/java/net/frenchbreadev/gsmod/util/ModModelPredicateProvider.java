@@ -1,4 +1,4 @@
-package net.frenchbreadev.gsmod.item.util;
+package net.frenchbreadev.gsmod.util;
 
 import net.fabricmc.fabric.api.object.builder.v1.client.model.FabricModelPredicateProviderRegistry;
 import net.frenchbreadev.gsmod.item.ModItems;

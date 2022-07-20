@@ -41,5 +41,6 @@
   "item.gsmod.music_disc_blue_to_blue": "§aMusic Disc§8:§r §1Blue To Blue",
   "item.gsmod.music_disc_blue_to_blue.desc": "Cloudnone - Blue To Blue",
   "item.gsmod.secret_saul": "§2Dusic Misc§7:§r §cBetter Call Saul",
-  "item.gsmod.secret_saul.desc": "Secret Saul - Did You Know You Have Rights?"
+  "item.gsmod.secret_saul.desc": "Secret Saul - Did You Know You Have Rights?",
+  "enchantment.gsmod.poison_aspect": "Poison Aspect"
 }
