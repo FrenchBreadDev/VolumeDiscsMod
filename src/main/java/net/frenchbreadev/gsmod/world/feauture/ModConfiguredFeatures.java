@@ -25,10 +25,19 @@ public class ModConfiguredFeatures {
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
                     ModBlocks.VIBRIAN_SILK_BLOCK.getDefaultState()));
 
-
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> VIBRIAN_SILK_BLOCK =
             ConfiguredFeatures.register("vibrian_silk_block",Feature.ORE,
                     new OreFeatureConfig(OVERWORLD_GILDSTONE_ORES, 4));
+
+    public static final List<OreFeatureConfig.Target> OVERWORLD_IMPEURDIUM_ORES = List.of(
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
+                    ModBlocks.IMPEURDIUM_ORE.getDefaultState()),
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
+                    ModBlocks.DEEPSLATE_IMPEURDIUM_ORE.getDefaultState()));
+
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> IMPEURDIUM_ORE =
+            ConfiguredFeatures.register("impeurdium_ore",Feature.ORE,
+                    new OreFeatureConfig(OVERWORLD_IMPEURDIUM_ORES, 4));
 
 
 

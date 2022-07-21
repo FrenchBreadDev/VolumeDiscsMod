@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "gsmod:raw_impeurdium"
+  },
+  "addition": {
+    "item": "gsmod:smithing_hammer"
+  },
+  "result": {
+    "item": "gsmod:compressed_impeuridium"
+  }
+}

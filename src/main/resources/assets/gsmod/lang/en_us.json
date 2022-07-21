@@ -1,4 +1,6 @@
 {
+  "item.gsmod.smithing_hammer": "Smithing Hammer",
+  "item.gsmod.compressed_impeuridium": "Compressed Impeuridium",
   "item.gsmod.damaged_gildstone_blade": "Damaged Gildstone Blade",
   "item.gsmod.reforged_gildstone_blade": "Reforged Gildstone Blade",
   "item.gsmod.raw_gildstone": "Raw Gildstone",
@@ -11,11 +13,19 @@
   "item.gsmod.gildstone_boots": "Gildstone Boots",
   "item.gsmod.gildstone_bow": "Gildstone Bow",
   "item.gsmod.vibrian_silk_string": "Vibrian Silk String",
-
+  "item.gsmod.liquid_vibrian_silk_string": "Liquid Vibrian Silk String",
+  "item.gsmod.chisel": "Chisel",
+  "item.gsmod.vibrian_acid": "Vibrian Acid",
+  "item.gsmod.raw_impeurdium": "Raw Impeurdium",
+  "block.gsmod.compressed_impeuridium_block": "Block of Compressed Impeuridium",
   "block.gsmod.gildstone_block": "Block Of Gildstone",
+  "block.gsmod.deepslate_impeurdium_ore": "Deepslate Impeurdium Ore",
+  "block.gsmod.impeurdium_ore": "Impeurdium Ore",
   "block.gsmod.vibrian_silk_block": "Vibrian Silk Block",
   "block.gsmod.end_gildstone_ore": "End Gildstone Ore",
-
+  "block.gsmod.semi_petrified_gildstone": "Semi-Petrified Gildstone",
+  "block.gsmod.half_petrified_gildstone": "Half-Petrified Gildstone",
+  "block.gsmod.fully_petrified_gildstone": "Fully-Petrified Gildstone",
   "item.gsmod.gradient_music_disc": "§aMusic Disc§8:§r §7E§8m§7p§8t§7y",
   "item.gsmod.gradient_music_disc.desc": "Juice WRLD - Empty",
   "itemGroup.gsmod.gildedcom": "§6GsMod§8: §cCombat",

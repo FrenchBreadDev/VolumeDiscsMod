@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "gsmod:compressed_impeuridium"
+    }
+  },
+  "result": {
+    "item": "gsmod:compressed_impeuridium_block"
+  }
+}

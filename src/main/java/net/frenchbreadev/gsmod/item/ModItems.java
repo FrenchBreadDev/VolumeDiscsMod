@@ -5,10 +5,7 @@ import net.frenchbreadev.gsmod.GsMod;
 import net.frenchbreadev.gsmod.item.custom.*;
 import net.frenchbreadev.gsmod.sound.ModSounds;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.BowItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -100,6 +97,23 @@ public class ModItems {
             new ModMusicDiscItem(7, ModSounds.SECRET_SAUL,
                     new FabricItemSettings().maxCount(1)));
 
+    public static final Item CHISEL = registerItem("chisel",
+            new Item(new FabricItemSettings().group(ModItemGroup4.GILDEDTO).maxCount(1)));
+
+    public static final Item LIQUID_VIBRIAN_SILK_STRING = registerItem("liquid_vibrian_silk_string",
+            new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC)));
+
+    public static final Item VIBRIAN_ACID = registerItem("vibrian_acid",
+            new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC).maxCount(1)));
+
+    public static final Item RAW_IMPEURDIUM = registerItem("raw_impeurdium",
+            new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC)));
+
+    public static final Item COMPRESSED_IMPEURIDIUM = registerItem("compressed_impeuridium",
+            new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC)));
+
+    public static final Item SMITHING_HAMMER = registerItem("smithing_hammer",
+            new Item(new FabricItemSettings().group(ModItemGroup4.GILDEDTO).maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(GsMod.MOD_ID, name), item);
