@@ -4,7 +4,11 @@
     "gsmod:gildstone_block",
     "gsmod:end_gildstone_ore",
     "gsmod:vibrian_silk_block",
-    "gsmod:deepslate_impeurdium_ore",
-    "gsmod:impeurdium_ore"
+    "gsmod:deepslate_impeuridium_ore",
+    "gsmod:impeuridium_ore",
+    "gsmod:semi_petrified_gildstone",
+    "gsmod:half_petrified_gildstone",
+    "gsmod:fully_petrified_gildstone",
+    "gsmod:activated_fully_petrified_gildstone"
   ]
 }

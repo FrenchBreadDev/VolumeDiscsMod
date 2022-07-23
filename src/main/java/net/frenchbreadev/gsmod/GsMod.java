@@ -5,6 +5,7 @@ import net.frenchbreadev.gsmod.block.ModBlocks;
 import net.frenchbreadev.gsmod.enchantment.ModEnchantments;
 import net.frenchbreadev.gsmod.item.ModItems;
 import net.frenchbreadev.gsmod.util.ModLootTableModifiers;
+import net.frenchbreadev.gsmod.world.dimension.ModDimensions;
 import net.frenchbreadev.gsmod.world.feauture.ModConfiguredFeatures;
 import net.frenchbreadev.gsmod.world.gen.ModWorldGen;
 import org.slf4j.Logger;
@@ -25,5 +26,6 @@ public class GsMod implements ModInitializer {
 		ModWorldGen.generateModWorldGen();
 		ModEnchantments.registerModEnchantments();
 		ModLootTableModifiers.modifyLootTables();
+		ModDimensions.register();
 	}
 }

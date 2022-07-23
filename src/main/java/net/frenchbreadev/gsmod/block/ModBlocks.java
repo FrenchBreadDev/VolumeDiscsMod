@@ -31,14 +31,18 @@ public class ModBlocks {
     public static final Block FULLY_PETRIFIED_GILDSTONE = registerBlock("fully_petrified_gildstone",
             new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()));
 
-    public static final Block IMPEURDIUM_ORE = registerBlock("impeurdium_ore",
+    public static final Block IMPEURIDIUM_ORE = registerBlock("impeuridium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()));
 
-    public static final Block DEEPSLATE_IMPEURDIUM_ORE = registerBlock("deepslate_impeurdium_ore",
+    public static final Block DEEPSLATE_IMPEURIDIUM_ORE = registerBlock("deepslate_impeuridium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(6.2f).requiresTool()));
 
     public static final Block COMPRESSED_IMPEURIDIUM_BLOCK = registerBlock("compressed_impeuridium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6.4f).requiresTool()));
+
+    public static final Block ACTIVATED_FULLY_PETRIFIED_GILDSTONE = registerBlock("activated_fully_petrified_gildstone",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6.4f).requiresTool()));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

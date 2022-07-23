@@ -80,7 +80,7 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup4.GILDEDTO)));
 
     public static final Item GILDSTONE_BOW = registerItem("gildstone_bow",
-            new BowItem(new FabricItemSettings().group(ModItemGroup.GILDEDCOM).maxDamage(3169)));
+            new BowItem(new FabricItemSettings().group(ModItemGroup.GILDEDCOM).maxDamage(3980)));
 
     public static final Item VIBRIAN_SILK_STRING = registerItem("vibrian_silk_string",
             new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC)));
@@ -97,8 +97,6 @@ public class ModItems {
             new ModMusicDiscItem(7, ModSounds.SECRET_SAUL,
                     new FabricItemSettings().maxCount(1)));
 
-    public static final Item CHISEL = registerItem("chisel",
-            new Item(new FabricItemSettings().group(ModItemGroup4.GILDEDTO).maxCount(1)));
 
     public static final Item LIQUID_VIBRIAN_SILK_STRING = registerItem("liquid_vibrian_silk_string",
             new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC)));
@@ -106,14 +104,57 @@ public class ModItems {
     public static final Item VIBRIAN_ACID = registerItem("vibrian_acid",
             new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC).maxCount(1)));
 
-    public static final Item RAW_IMPEURDIUM = registerItem("raw_impeurdium",
+    public static final Item RAW_IMPEURIDIUM = registerItem("raw_impeuridium",
             new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC)));
 
     public static final Item COMPRESSED_IMPEURIDIUM = registerItem("compressed_impeuridium",
             new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC)));
 
-    public static final Item SMITHING_HAMMER = registerItem("smithing_hammer",
-            new Item(new FabricItemSettings().group(ModItemGroup4.GILDEDTO).maxCount(1)));
+
+    public static final Item COMPRESSED_IMPEURIDIUM_CHESTPLATE = registerItem("compressed_impeuridium_chestplate",
+            new ModArmorItem3(ModArmorMaterials2.COMPRESSED_IMPEURIDIUM, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.GILDEDCOM)));
+
+    public static final Item COMPRESSED_IMPEURIDIUM_LEGGINGS = registerItem("compressed_impeuridium_leggings",
+            new ModArmorItem3(ModArmorMaterials2.COMPRESSED_IMPEURIDIUM, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.GILDEDCOM)));
+
+    public static final Item COMPRESSED_IMPEURIDIUM_HELMET = registerItem("compressed_impeuridium_helmet",
+            new ModArmorItem4(ModArmorMaterials2.COMPRESSED_IMPEURIDIUM, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.GILDEDCOM)));
+
+    public static final Item COMPRESSED_IMPEURIDIUM_BOOTS = registerItem("compressed_impeuridium_boots",
+            new ModArmorItem4(ModArmorMaterials2.COMPRESSED_IMPEURIDIUM, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.GILDEDCOM)));
+
+    public static final Item COMPRESSED_IMPEURIDIUM_BLADE_HILT = registerItem("compressed_impeuridium_blade_hilt",
+            new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC)));
+
+    public static final Item COMPRESSED_IMPEURIDIUM_BLADE_PIECE = registerItem("compressed_impeuridium_blade_piece",
+            new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC)));
+
+    public static final Item COMPRESSED_IMPEURIDIUM_BLADE = registerItem("compressed_impeuridium_blade",
+            new ModPoisonSwordItem((ToolMaterial) ModToolMaterials2.COMPRESSED_IMPEURIDIUM, (int) 8.5, 1f,
+                    (Item.Settings) new FabricItemSettings().group(ModItemGroup.GILDEDCOM)));
+
+    public static final Item  COMPRESSED_IMPEURIDIUM_PICKAXE = registerItem("compressed_impeuridium_pickaxe",
+            new ModPickaxeItem(ModToolMaterials2.COMPRESSED_IMPEURIDIUM, 4, 3.5f,
+                    new FabricItemSettings().group(ModItemGroup4.GILDEDTO)));
+
+    public static final Item  COMPRESSED_IMPEURIDIUM_HOE = registerItem("compressed_impeuridium_hoe",
+            new ModHoeItem(ModToolMaterials2.COMPRESSED_IMPEURIDIUM, 0, 0f,
+                    new FabricItemSettings().group(ModItemGroup4.GILDEDTO)));
+
+    public static final Item  COMPRESSED_IMPEURIDIUM_SHOVEL = registerItem("compressed_impeuridium_shovel",
+            new ShovelItem(ModToolMaterials2.COMPRESSED_IMPEURIDIUM, 0, 2f,
+                    new FabricItemSettings().group(ModItemGroup4.GILDEDTO)));
+
+    public static final Item  COMPRESSED_IMPEURIDIUM_AXE = registerItem("compressed_impeuridium_axe",
+            new ModAxeItem(ModToolMaterials2.COMPRESSED_IMPEURIDIUM, 0, 0f,
+                    new FabricItemSettings().group(ModItemGroup4.GILDEDTO)));
+
+    public static final Item ETERNAL_STAFF = registerItem("eternal_staff",
+            new Item(new FabricItemSettings().group(ModItemGroup2.GILDEDMISC).maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(GsMod.MOD_ID, name), item);

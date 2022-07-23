@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gsmod:block/activated_fully_petrified_gildstone"
+  }
+}

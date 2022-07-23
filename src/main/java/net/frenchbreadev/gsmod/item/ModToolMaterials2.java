@@ -7,8 +7,8 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public enum ModToolMaterials implements ToolMaterial {
-    GILDSTONE(MiningLevels.NETHERITE, 4269, 18.0f, 5.5f, 34, () -> Ingredient.ofItems(ModItems.GILDSTONE_INGOT));
+public enum ModToolMaterials2 implements ToolMaterial {
+    COMPRESSED_IMPEURIDIUM(MiningLevels.NETHERITE, 2569, 16.5f, 4.5f, 26, () -> Ingredient.ofItems(ModItems.COMPRESSED_IMPEURIDIUM));
 
     private final int miningLevel;
     private final int itemDurability;
@@ -17,7 +17,7 @@ public enum ModToolMaterials implements ToolMaterial {
     private final int enchantability;
     private final Lazy<Ingredient> repairIngredient;
 
-    ModToolMaterials(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    ModToolMaterials2(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

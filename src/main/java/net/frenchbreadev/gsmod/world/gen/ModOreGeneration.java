@@ -15,6 +15,6 @@ public class ModOreGeneration {
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.VIBRIAN_SILK_BLOCK_PLACED.getKey().get());
 
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
-                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.IMPEURDIUM_ORE_PLACED.getKey().get());
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.IMPEURIDIUM_ORE_PLACED.getKey().get());
     }
 }

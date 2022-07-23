@@ -16,8 +16,8 @@ public class ModPlacedFeatures {
             ModConfiguredFeatures.VIBRIAN_SILK_BLOCK, ModOreFeatures.modifiersWithCount(5,
                     HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-16), YOffset.aboveBottom(16))));
 
-    public static final RegistryEntry<PlacedFeature> IMPEURDIUM_ORE_PLACED = PlacedFeatures.register("impeurdium_ore_placed",
-            ModConfiguredFeatures.IMPEURDIUM_ORE, ModOreFeatures.modifiersWithCount(3,
+    public static final RegistryEntry<PlacedFeature> IMPEURIDIUM_ORE_PLACED = PlacedFeatures.register("impeuridium_ore_placed",
+            ModConfiguredFeatures.IMPEURIDIUM_ORE, ModOreFeatures.modifiersWithCount(3,
                     HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 
 
