@@ -1,0 +1,74 @@
+{
+  "gradient_music_disc": {
+    "sounds": [
+      {
+        "name": "irldisc:jempty",
+        "stream": true
+      }
+    ]
+  },
+  "gilded_music_disc": {
+    "sounds": [
+      {
+        "name": "irldisc:wenome",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_x": {
+    "sounds": [
+      {
+        "name": "irldisc:disc_x",
+        "stream": true
+      }
+    ]
+  },
+  "one_rn_disc": {
+    "sounds": [
+      {
+        "name": "irldisc:one_rn",
+        "stream": true
+      }
+]
+},
+"music_disc_bad_dream": {
+"sounds": [
+{
+"name": "irldisc:bad_dream_disc",
+"stream": true
+}
+]
+},
+  "music_disc_decisions": {
+    "sounds": [
+      {
+        "name": "irldisc:music_disc_decisions",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_blue_to_blue": {
+    "sounds": [
+      {
+        "name": "irldisc:music_disc_blue_to_blue",
+        "stream": true
+      }
+    ]
+  },
+  "secret_saul": {
+    "sounds": [
+      {
+        "name": "irldisc:s_s",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_labyrinth": {
+    "sounds": [
+      {
+        "name": "irldisc:music_disc_labyrinth",
+        "stream": true
+      }
+    ]
+  }
+}

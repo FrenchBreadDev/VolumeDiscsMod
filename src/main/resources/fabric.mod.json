@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "gsmod",
+  "id": "irl-disc",
   "version": "${version}",
 
-  "name": "Gilded Swords Mod",
-  "description": "Adds Gilded Armor and Tools, Along with Ore and Others",
+  "name": "Irl Disc",
+  "description": "Adds Discs with songs From Real Life!",
   "authors": [
     "FrenchBreadDev"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FrenchBreadDev/GildedSwordsAndOre1.19"
+    "homepage": "",
+    "sources": ""
   },
 
   "license": "MIT License",
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.frenchbreadev.gsmod.GsMod"
+      "net.frenchbreadev.irldisc.IrlDisc"
     ],
     "client": [
-      "net.frenchbreadev.gsmod.GsModClient"
+      "net.frenchbreadev.irldisc.IrlDiscClient"
     ]
   },
   "mixins": [
-    "gsmod.mixins.json"
+    "irldisc.mixins.json"
   ],
 
   "depends": {

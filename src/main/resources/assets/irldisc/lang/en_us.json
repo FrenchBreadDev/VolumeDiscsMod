@@ -1,0 +1,21 @@
+{
+  "item.irldisc.gradient_music_disc": "§aMusic Disc§8:§r §7E§8m§7p§8t§7y",
+  "item.irldisc.gradient_music_disc.desc": "Juice WRLD - Empty",
+  "item.irldisc.music_disc_labyrinth": "§aMusic Disc§8:§r §9L§8a§9b§8y§9r§8i§9n§8t§9h",
+  "item.irldisc.music_disc_labyrinth.desc": "Essenger, Direct - Labyrinth",
+  "item.irldisc.gilded_music_disc": "§aMusic Disc§8:§r §eS§6u§em§6m§ee§6r",
+  "item.irldisc.gilded_music_disc.desc": "Calvin Harris - Summer",
+  "item.irldisc.music_disc_x": "§aMusic Disc§8:§r §9X",
+  "item.irldisc.music_disc_x.desc": "MUZZ, Koven - Catharsis X",
+  "item.irldisc.one_rn_disc": "§aMusic Disc§8:§r §cO§6n§4e §eR§ci§6g§4h§et §cN§6o§4w",
+  "item.irldisc.one_rn_disc.desc": "Post Malone, The Weeknd - One Right Now",
+  "item.irldisc.music_disc_bad_dream": "§aMusic Disc§8:§r §1Bad §5Dream",
+  "item.irldisc.music_disc_bad_dream.desc": "Stellar - Bad Dream",
+  "item.irldisc.music_disc_decisions": "§aMusic Disc§8:§r §bDecisions",
+  "item.irldisc.music_disc_decisions.desc": "Flite, Justin Hawkes - Decisions",
+  "item.irldisc.music_disc_blue_to_blue": "§aMusic Disc§8:§r §1Blue To Blue",
+  "item.irldisc.music_disc_blue_to_blue.desc": "Cloudnone - Blue To Blue",
+  "item.irldisc.secret_saul": "§2Dusic Misc§7:§r §cBetter Call Saul",
+  "item.irldisc.secret_saul.desc": "Secret Saul - Did You Know You Have Rights?",
+  "itemGroup.irldisc.mod_discs": "§6Mod Discs"
+}
