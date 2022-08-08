@@ -95,6 +95,46 @@ public class ModLootTableModifiers {
                             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
                     tableBuilder.pool(poolBuilder.build());
                 }
+                    if(SIMPLE_DUNGEON_ID.equals(id)) {
+                        LootPool.Builder poolBuilder = LootPool.builder()
+                                .rolls(ConstantLootNumberProvider.create(1))
+                                .conditionally(RandomChanceLootCondition.builder(0.15f)) // Drops 100% of the time
+                                .with(ItemEntry.builder(ModItems.MUSIC_DISC_WISH))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
+                        tableBuilder.pool(poolBuilder.build());
+                    }
+                    if(SIMPLE_DUNGEON_ID.equals(id)) {
+                        LootPool.Builder poolBuilder = LootPool.builder()
+                                .rolls(ConstantLootNumberProvider.create(1))
+                                .conditionally(RandomChanceLootCondition.builder(0.18f)) // Drops 100% of the time
+                                .with(ItemEntry.builder(ModItems.MUSIC_DISC_SPIN_ETERNALLY))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
+                        tableBuilder.pool(poolBuilder.build());
+                    }
+                    if(SIMPLE_DUNGEON_ID.equals(id)) {
+                        LootPool.Builder poolBuilder = LootPool.builder()
+                                .rolls(ConstantLootNumberProvider.create(1))
+                                .conditionally(RandomChanceLootCondition.builder(0.22f)) // Drops 100% of the time
+                                .with(ItemEntry.builder(ModItems.MUSIC_DISC_STRANGE_LOVE))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
+                        tableBuilder.pool(poolBuilder.build());
+                    }
+                    if(SIMPLE_DUNGEON_ID.equals(id)) {
+                        LootPool.Builder poolBuilder = LootPool.builder()
+                                .rolls(ConstantLootNumberProvider.create(1))
+                                .conditionally(RandomChanceLootCondition.builder(0.28f)) // Drops 100% of the time
+                                .with(ItemEntry.builder(ModItems.MUSIC_DISC_THE_ONLY_THING_I_KNOW_FOR_REAL))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
+                        tableBuilder.pool(poolBuilder.build());
+                    }
+                    if(SIMPLE_DUNGEON_ID.equals(id)) {
+                        LootPool.Builder poolBuilder = LootPool.builder()
+                                .rolls(ConstantLootNumberProvider.create(1))
+                                .conditionally(RandomChanceLootCondition.builder(0.19f)) // Drops 100% of the time
+                                .with(ItemEntry.builder(ModItems.MUSIC_DISC_ALL_THE_STARS))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
+                        tableBuilder.pool(poolBuilder.build());
+                    }
             }
         });
     }

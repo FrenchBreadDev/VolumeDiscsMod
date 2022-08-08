@@ -46,6 +46,26 @@ public class ModItems {
             new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_LABYRINTH,
                     new FabricItemSettings().group(ModItemGroup.MODDISCS).maxCount(1)));
 
+    public static final Item MUSIC_DISC_WISH = registerItem("music_disc_wish",
+            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_WISH,
+                    new FabricItemSettings().group(ModItemGroup.MODDISCS).maxCount(1)));
+
+    public static final Item MUSIC_DISC_SPIN_ETERNALLY = registerItem("music_disc_spin_eternally",
+            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_SPIN_ETERNALLY,
+                    new FabricItemSettings().group(ModItemGroup.MODDISCS).maxCount(1)));
+
+    public static final Item MUSIC_DISC_STRANGE_LOVE = registerItem("music_disc_strange_love",
+            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_STRANGE_LOVE,
+                    new FabricItemSettings().group(ModItemGroup.MODDISCS).maxCount(1)));
+
+    public static final Item MUSIC_DISC_THE_ONLY_THING_I_KNOW_FOR_REAL = registerItem("music_disc_the_only_thing_i_know_for_real",
+            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_THE_ONLY_THING_I_KNOW_FOR_REAL,
+                    new FabricItemSettings().group(ModItemGroup.MODDISCS).maxCount(1)));
+
+    public static final Item MUSIC_DISC_ALL_THE_STARS = registerItem("music_disc_all_the_stars",
+            new ModMusicDiscItem(7, ModSounds.MUSIC_DISC_All_THE_STARS,
+                    new FabricItemSettings().group(ModItemGroup.MODDISCS).maxCount(1)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(IrlDisc.MOD_ID, name), item);

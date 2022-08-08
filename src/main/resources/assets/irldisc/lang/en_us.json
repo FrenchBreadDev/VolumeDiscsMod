@@ -15,7 +15,17 @@
   "item.irldisc.music_disc_decisions.desc": "Flite, Justin Hawkes - Decisions",
   "item.irldisc.music_disc_blue_to_blue": "§aMusic Disc§8:§r §1Blue To Blue",
   "item.irldisc.music_disc_blue_to_blue.desc": "Cloudnone - Blue To Blue",
+  "item.irldisc.music_disc_wish": "§aMusic Disc§8:§r §dWISH",
+  "item.irldisc.music_disc_wish.desc": "Cloudnone - WISH",
   "item.irldisc.secret_saul": "§2Dusic Misc§7:§r §cBetter Call Saul",
   "item.irldisc.secret_saul.desc": "Secret Saul - Did You Know You Have Rights?",
+  "item.irldisc.music_disc_spin_eternally": "§aMusic Disc§8:§r §bSpin Eternally",
+  "item.irldisc.music_disc_spin_eternally.desc": "Camellia - Spin Eternally",
+  "item.irldisc.music_disc_strange_love": "§aMusic Disc§8:§r §4Strange Love",
+  "item.irldisc.music_disc_strange_love.desc": "Depeche Mode - Strangelove",
+  "item.irldisc.music_disc_the_only_thing_i_know_for_real": "§aMusic Disc§8:§r §eThe Only Thing I Know For Real",
+  "item.irldisc.music_disc_the_only_thing_i_know_for_real.desc": "Metal Gear Rising - The Only Thing I Know For Real",
+  "item.irldisc.music_disc_all_the_stars": "§aMusic Disc§8:§r §5All The Stars",
+  "item.irldisc.music_disc_all_the_stars.desc": "Kendrick Lamar, SZA - All The Stars",
   "itemGroup.irldisc.mod_discs": "§6Mod Discs"
 }
